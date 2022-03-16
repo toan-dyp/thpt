@@ -4,6 +4,10 @@
   /* background-color: black; */
 }
 
+.text-left{
+  text-align: left;
+}
+
 .list{
   padding: 1.5rem;
   margin-right: 0;
