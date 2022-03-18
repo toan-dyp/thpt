@@ -140,7 +140,7 @@ function loadlist(data){
   $(".listvideo").empty();
   $(".listvideo").append(`<a class="btn d-none" type="button" "></a>`);
   for (e of data) {
-    console.log(e.url);
+    //console.log(e.url);
     if(e.type == 3)
         $(".listvideo").append(
             `<a class="btn btn-outline-secondary text-left" type="button" href="#" onclick="load('https://video.vatlyhadong.com/streamer/embed.php?v=${e.url}')">
